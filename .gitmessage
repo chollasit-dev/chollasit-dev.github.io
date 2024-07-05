@@ -1,0 +1,40 @@
+# <type>(<scope>): <subject>
+# <BLANK LINE>
+# <body>
+# <BLANK LINE>
+# <footer>
+
+# Type should be one of the following:
+# - feat (new feature)
+# - fix (bug fix)
+# - docs (changes to documentation)
+# - style (formatting, missing semi colons, etc; no code change)
+# - refactor (refactoring production code)
+# - test (adding missing tests, refactoring tests; no production code change)
+# - chore (updating build tasks etc; no production code change)
+# - perf (code change that improves performance)
+# - ci (changes to CI configuration files and scripts)
+# - build (changes that affect the build system or external dependencies)
+# - revert (reverts a previous commit)
+
+# Scope should be one of the following:
+# - astro (changes to Astro configuration or components)
+# - react (changes to React components)
+# - tailwind (changes to Tailwind CSS configuration or styles)
+# - content (changes to content, such as text or images)
+# - deps (changes to dependencies)
+# - config (changes to configuration files)
+# - *
+
+# The subject should use impertivite tone and say what you did.
+# The body should go into more detail about changes made.
+# The footer should contain issue references or breaking change notes.
+
+# For example:
+# feat(astro): add new blog post page
+#
+# - Created new Astro page for rendering blog posts
+# - Integrated with Markdown content source
+# - Added meta tags for SEO
+#
+# Resolves: #123
